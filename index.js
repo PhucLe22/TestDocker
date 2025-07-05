@@ -1,7 +1,7 @@
 require('dotenv').config(); // Load biến môi trường trước
 const express = require('express');
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORT || 4000;
 const { engine } = require('express-handlebars');
 const path = require('path');
 const route = require('./routes');
