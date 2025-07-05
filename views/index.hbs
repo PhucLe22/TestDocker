@@ -1,0 +1,13 @@
+<h1>Hello! This is homepage</h1>
+
+<a href="/user">register</a>
+
+{{#each users}}
+<div>
+    <p>Id: {{this._id}}</p>
+    <p>Name: {{this.name}}</p>
+    <p>Email: {{this.email}}</p>
+    <p>Phone: {{this.phone}}</p>
+    <a href="/user/edit/{{this._id}}">Edit</a>
+</div>
+{{/each}}
