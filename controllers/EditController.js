@@ -24,7 +24,7 @@ class EditController {
                 res.redirect('/');
             })
     }
-    // kkk
+    // omg
 }
 
 module.exports = new EditController();
