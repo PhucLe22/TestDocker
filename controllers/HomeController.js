@@ -11,6 +11,7 @@ class HomeController {
             })
             .catch(next);
     }
+    //haha
 }
 
 module.exports = new HomeController();
