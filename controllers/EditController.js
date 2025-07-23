@@ -24,6 +24,7 @@ class EditController {
                 res.redirect('/');
             })
     }
+    // gioi oi 
 }
 
 module.exports = new EditController();
